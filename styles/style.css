@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   box-sizing:border-box;
 }
@@ -42,7 +44,8 @@ header {
 
 h1 {
   margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgb(255, 186, 210);
+  font-family: "Roboto";
 }
 
 button {
