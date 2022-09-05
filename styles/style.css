@@ -14,7 +14,7 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#10214e;
+  color:#f9bdff;
 }
 
 article {
@@ -45,7 +45,8 @@ header {
 h1 {
   margin:2rem 0 1rem;
   color: rgb(255, 186, 210);
-  font-family: "Roboto";
+  font-family: "Roboto" ;
+
 }
 
 button {
