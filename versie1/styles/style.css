@@ -52,7 +52,6 @@ h1 {
 }
 
 
-
 button {
   border:none;
   font-size:20px;
@@ -69,22 +68,7 @@ button {
 }
 button:focus {
   outline:none;
-  background:#ffdeef;
-}
-button:focus svg {
-  stroke: rgba(0,239,255,1);
-}
-
-svg {
-  stroke: #4e54c8;
-  position: absolute;
-  top:calc(1.25rem - 12px);
-  left:calc(1.25rem - 12px);
-  transition-delay: .25s;
-}
-button svg:nth-of-type(2) {
-  opacity:0;
-  transition-delay: 0ms;
+  background:#8f8f8f4f;
 }
 
 img {
