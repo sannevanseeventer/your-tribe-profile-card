@@ -1,4 +1,6 @@
-const flipCardContainer = document.querySelector(".flip-card-container");
-flipCardContainer.addEventListener("click", function() {
-    flipCardContainer.classList.toggle ("flip");
-});
+const expandButton = document.querySelector('header button')
+expandButton.addEventListener('click', expand)
+
+function expand () {
+  document.body.classList.toggle('expand')
+}

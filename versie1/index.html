@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FDND Visitekaartje</title>
-  <link rel="stylesheet" href="./styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardflip</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<article>
+    <div class="flip-card-container">
+        <div class="flip-card">
+            <div class="flip-card-front">
+                <img src="assets/pasfoto_Sanne3.jpg" alt="Pasfoto Sanne">
+                <h2>Sanne van Seeventer</h2>
+                <h3>25 jaar</h3>
 
-    
-    <button>
-      ☰
-    </button>
+                <button class="no" aria-label="weiger">✘</button>
+                <button class="info">i</button>
+                <button class="yes">✔</button>
+            </div>
 
-  
-  
-  <img src="assets/pasfoto_Sanne3.jpg" alt="Creative Coder">
+            <div class="flip-card-back1">
+                <h1> It's a match! </h1>
+                <img src="assets/pasfoto_Sanne3.jpg" alt="foto">
+                <h3> Yes! Sanne is geschikt voor het bedrijf. <br>
+                    Neem contact met haar op via onderstaande knoppen. </h3>
+            </div>
 
-   
-    <h1>Sanne van Seeventer</h1>
-<p>25 jaar</p>
-  
+            <div class="flip-card-back2">
+                <h1> Informatie </h1>
 
-    <dl>
-      <dt><div id="button1"> <input type="button" value="✘" id="button1"></div></dd>
-      <dt><div id="button2"> <input type="button" value="i" id="button2"></div></dd>
-      <dt><div id="button3"> <input type="button" value="✔" id="button3"></div></dd>
-    </dl>
-  
-</article>
+            </div>
+
+            <div class="flip-card-back3">
+                <h1> WARNING! </h1>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 
 
-
-  <script src="./scripts/script.js"></script>
 </body>
+
 </html>

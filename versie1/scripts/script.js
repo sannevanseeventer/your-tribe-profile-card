@@ -1,6 +1,25 @@
-const expandButton = document.querySelector('header button')
-expandButton.addEventListener('click', expand)
+const flipCardContainer = document.querySelector(".flip-card-container");
+const no = document.querySelector(".no");
+const info = document.querySelector(".info");
+const yes = document.querySelector(".yes");
 
-function expand () {
-  document.body.classList.toggle('expand')
-}
+
+no.addEventListener("click", function() {
+    flipCardContainer.classList.add ("option-3");
+    flipCardContainer.classList.add ("flip");
+    console.log('NOPEE')
+});
+
+info.addEventListener("click", function() {
+    flipCardContainer.classList.add ("option-2");
+    flipCardContainer.classList.add ("flip");
+
+    console.log('INFOOOOO')
+});
+
+yes.addEventListener("click", function() {
+    flipCardContainer.classList.add ("option-1");
+    flipCardContainer.classList.add ("flip");
+
+    console.log('YESSSS')
+});
