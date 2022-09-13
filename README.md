@@ -6,7 +6,8 @@
 
 Voor de eerste opdracht ben ik bezig geweest met een handig online visitekaartje met informatie over mijzelf. Hierdonder zie je een screenshot van de voorkant van het visitekaartje. 
 
-<img width="537" alt="Schermafbeelding 2022-09-09 om 11 38 36" src="https://user-images.githubusercontent.com/112857444/189320864-66c29838-1d08-4a8f-9417-ba6d47a7998d.png">
+<img width="497" alt="Schermafbeelding 2022-09-13 om 12 05 01" src="https://user-images.githubusercontent.com/112857444/189873882-21f6435f-f405-47e5-8f4c-eedca49612c6.png">
+
 
 <h2>Concept</h2>
 
