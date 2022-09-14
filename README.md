@@ -1,7 +1,7 @@
 
 <h1>Visitekaartje</h1>
 
-Voor de eerste opdracht ben ik bezig geweest met een handig online visitekaartje met informatie over mijzelf. Hierdonder zie je een screenshot van de voorkant van het visitekaartje. 
+Voor de eerste opdracht ben ik bezig geweest met een handig online visitekaartje met informatie over mijzelf. Hieronder zie je een screenshot van de voorkant van het visitekaartje. 
 
 <img width="497" alt="Schermafbeelding 2022-09-13 om 12 05 01" src="https://user-images.githubusercontent.com/112857444/189873882-21f6435f-f405-47e5-8f4c-eedca49612c6.png">
 
