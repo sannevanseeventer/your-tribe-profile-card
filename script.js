@@ -23,3 +23,10 @@ yes.addEventListener("click", function() {
 
     console.log('YESSSS')
 });
+
+$('a').mouseover(function(){
+    $('span:first-child').hide();
+  });
+  $('a').mouseleave(function(){
+    $('span:first-child').fadeIn(400);
+  });
