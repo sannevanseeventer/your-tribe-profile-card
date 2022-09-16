@@ -148,9 +148,8 @@ header {
 
 .flip-card-back3 h1{
     color: rgb(61, 61, 61);
-    font-family: "Roboto" ;
-    font-weight: 500;
-    font-size: 2.3rem;
+    font-family: 'Futura' ;
+    font-size: 2rem;
     margin-top: 118px;
     margin-bottom:110px;
     text-align: center;
@@ -177,8 +176,8 @@ img {
 
   h1 {
     color: rgb(61, 61, 61);
-    font-family: 'Roboto';
-    font-size: 40px;
+    font-family: 'Futura';
+    font-size: 35px;
     margin-top: 20px;
     margin-bottom:320px;
     text-align: center;
@@ -187,10 +186,9 @@ img {
 }
 
 h2 {
-    color: rgb(42, 42, 42);
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 1.4rem;
+    color: rgb(79, 79, 79);
+    font-family: 'Futura';
+    font-size: 1.3rem;
     margin-top: 150px;
     margin-bottom: 0px;
     text-align: center;
@@ -321,12 +319,14 @@ h5{
 
 .return {
     font-family: "Roboto"; 
-    font-size: 0.8rem;
-    width: 55px;
-    height: 30px;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 40px;
+    height: 25px;
     background-color: rgb(237, 237, 237);
     color: rgb(129, 129, 129);
-    border-radius:  10px; 
+    border-radius:  5px; 
     border:1px rgba(255,255,255, 0.5);
     margin-top: 30px;
     margin-bottom: 480px;
@@ -335,8 +335,9 @@ h5{
 }
 
 .return:hover {
-    background-color: rgb(255, 156, 95);
+    background-color: rgb(129, 129, 129);
     color: white;
+    text-transform: uppercase;
 }
 
 a {
@@ -381,7 +382,7 @@ a {
 
   }
   a:hover {
-    background: rgb(255, 156, 95);
+    background: rgb(129, 129, 129);
     width: 70px;
     height: 40px;
     border-radius: 15px;
